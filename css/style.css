@@ -1,0 +1,136 @@
+/***** CSS Custom *****/
+
+#main {
+    position: relative;
+}
+
+#main:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../imagens/backgrounds/laferrari.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+/*** Header Section ***/
+
+.header_section {
+    height: 40px;
+    -webkit-box-shadow: inset 0 0px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(47, 47, 47, .6);
+    box-shadow: inset 0 0px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(47, 47, 47, .6);
+}
+
+.content_header span {
+    padding: 10px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/** Vegas Section **/
+
+.vegas_section {
+    height: 500px;
+}
+
+.content_page_header {}
+
+
+/*** Enter Section ***/
+
+.enter_section {
+    height: 450px;
+}
+
+.content_enter_section h1 {
+    font-size: 45px;
+}
+
+.content_enter_section p {
+    margin-top: 35px;
+}
+
+
+/*** Detail Section ***/
+
+.content_list {
+    margin-bottom: 15px;
+}
+
+.content_bonus {
+    border: 1px solid #ECEFF1;
+    border-radius: 2px;
+    padding: 0 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.content_bonus ul {
+    margin-left: -45px;
+    list-style: none;
+}
+
+.content_bonus ul li {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content_bonus:hover {
+    border: 1px solid #D32F2F;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(211, 47, 47, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(211, 47, 47, .6);
+    transition-delay: 100ms;
+}
+
+.content_bonus .btn {
+    margin-bottom: 25px;
+}
+
+
+/*** Footer Section ***/
+
+.footer_section {
+    background-color: #212121;
+    color: #fff;
+}
+
+.content_footer_menu ul {
+    margin-left: -40px;
+    list-style: none;
+    min-height: 100px;
+}
+
+.content_newsletter input {
+    margin-bottom: 15px;
+}
+
+
+/*** Login Section ***/
+
+.login_section {
+    background: #212121;
+}
+
+.login_section h1,
+.login_section h3,
+.login_section h4 {
+    color: #fff;
+}
+
+.login_section input {
+    margin-bottom: 10px;
+}
+
+.content_title {
+    margin-bottom: 35px;
+}
+
+.content_title h1 {
+    font-size: 42px;
+}
