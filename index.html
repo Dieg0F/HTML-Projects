@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,28 +10,50 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/auxiliar.css" rel="stylesheet">
+    <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <section class='header_section sstb_padding'>
-        <div class='container'>
-            <div class="content_header">
-                <div class='col-md-7 col-sm-10 col-xs-12 pull-right text-right'>
-                    <span>Carros</span>
-                    <span>CSS</span>
-                    <span>Pages</span>
-                    <span>Blog</span>
-                    <span>Contact</span>
+    <section class='header_section'>
+        <nav class='navbar navbar-default'>
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Botão de Menu Mobile</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="imagens/logo/speedcar_logo.png"> <span class='span_destaque'>SPEED</span>CAR</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Carros <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Novos</a></li>
+                                <li><a href="#">Seminovos</a></li>
+                                <li><a href="#">Reviews</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Venda seu carro</a></li>
+                            </ul>
+                        </li>
+                        <li><a>CSS</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
     </section>
     <section class='enter_section ltb_padding' id="main">
         <div class='container'>
             <div class='row'>
                 <div class='content_enter_section text-center'>
-                    <h1>SPEEDCAR DEALER</h1>
+                    <h1><span class='span_destaque'>SPEED</span>CAR DEALER</h1>
                     <h4>Os melhores carros do mundo você encontra aqui!</h4>
                     <div class='separator'></div>
                     <p>Feito com HTML5, CSS3 e JS com o Framework - <span class='span_destaque'>Bootstrap</span></p>
@@ -112,7 +135,7 @@
         <div class='container'>
             <div class='row'>
                 <div class='text-center'>
-                    <h2>SPEEDCAR DEALER</h2>
+                    <h2><span class='span_destaque'>SPEED</span>CAR DEALER</h2>
                     <div class='separator'></div>
                     <p>O carro do seus sonhos está aqui!</p>
                     <button class="btn btn-default">Saiba Mais</button>
@@ -120,39 +143,17 @@
             </div>
         </div>
     </section>
-    <section class='login_section ltb_padding' style="display:none;">
-        <div class="container">
-            <div class='row'>
-                <div class='col-lg-8 col-md-7 col-sm-7 col-xs-12'>
-                    <div class='row'>
-                        <div class='col-md-10 col-sm-11 col-xs-12 pull-right text-right'>
-                            <div class='content_title'>
-                                <h1>Project Bootstrap</h1>
-                                <h3>Pagina cobaia. É feita com Bootstrap</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class='col-lg-4 col-md-5 col-sm-5 col-xs-12'>
-                    <div class='content_form'>
-                        <form>
-                            <h4>Entre com seu e-mail e senha</h4>
-                            <input type="text" class='form-control' />
-                            <input type="password" class='form-control' />
-                            <button class='btn btn-default'>Login</button>
-                        </form>
-                    </div>
-                </div>
-                <div class='clearfix'></div>
-            </div>
-        </div>
-    </section>
-    <section class="footer_section ltb_padding">
+    <section class="footer_section">
         <div class='container'>
             <div class="row">
-                <div class='col-xs-12 col-sm-6 col-md-3'>
+                <div class="content_footer_title">
+                    <h2><span class='span_destaque'>SPEED</span>CAR</h2>
+                    <h3>DEALER</h3>
+                    <div class='separator'></div>
+                    <h4>Os melhores carros do mundo você encontra aqui!</h4>
+                </div>
+                <div class='center-block'>
                     <div class='content_footer_menu'>
-                        <h3>Menu</h3>
                         <ul>
                             <li>Home</li>
                             <li>Pages</li>
@@ -160,39 +161,17 @@
                             <li>Blog</li>
                             <li>Contact</li>
                         </ul>
-                    </div>
-                </div>
-                <div class='col-xs-12 col-sm-6 col-md-3'>
-                    <div class='content_footer_menu'>
-                        <h3>Carros</h3>
                         <ul>
                             <li>Novos</li>
                             <li>Seminovos</li>
                             <li>Reviews</li>
-                            <li>Venda seu carro</li>
                         </ul>
                     </div>
                 </div>
-                <div class='col-xs-12 col-sm-6 col-md-3'>
-                    <div class='content_box_address'>
-                        <h3>SPEEDCAR DEALER</h3>
-                        <p>Speed Highway, 368 Somewhere - SW</p>
-                        <p>(54) 546-3245 / (54) 546-3455</p>
-                        <p>contact@speedcar.com</p>
-                    </div>
-                </div>
-                <div class='col-xs-12 col-sm-6 col-md-3'>
-                    <div class='content_newsletter'>
-                        <form>
-                            <h3>Newsletter</h3>
-                            <input type="text" placeholder="E-mail" class="form-control" />
-                            <button class='btn btn-default'>Enviar</button>
-                        </form>
-                    </div>
-                </div>
-                <div class='clearfix'></div>
             </div>
-        </div>
+            <div class='dev_by'>
+                <span>Dev by <span class="span_destaque">Dieg0f</span></span>
+            </div>
     </section>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
@@ -200,4 +179,5 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
