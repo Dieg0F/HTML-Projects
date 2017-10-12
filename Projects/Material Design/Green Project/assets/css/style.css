@@ -1,0 +1,172 @@
+/********************** Style ***********************/
+
+
+/**************************************************** 
+
+Green Projetc - HTML Theme with the beauty of nature
+
+****************************************************/
+
+
+/***** Bev by Fraga *****/
+
+
+/****** Imports ******/
+
+
+/** Google Fonts **/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Roboto:500');
+
+/** Material Icons **/
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+/*** Basic style ***/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display: block;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: block;
+}
+
+::selection{
+    background-color: #2e7d32;
+    color: #fff;
+    transition: all 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+/*** Sections ***/
+
+.section_header {
+    padding: 15px 0 30px;
+    min-height: 120px;
+    background-color: rgba(50, 50, 50, 0.50);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    height: 44px;
+    outline: none;
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.section_slider {
+    min-height: 80vh;
+    background-color: #000;
+    z-index: 100;
+}
+
+.section_main{
+    min-height: 50vh;
+}
+
+.section_text_one, .section_text_two{
+    min-height: 50vh;
+    padding: 75px 0;
+    background-color: #F5F5F5;
+}
+
+.section_text_two{
+    background-color: #FEFEFE!important;    
+}
+
+/*** Header ***/
+
+.section_header .navbar-light.bg-light {
+    background-color: transparent!important;
+    background-image: none;
+}
+
+.navbar-nav {
+    margin-right: 0px!important;
+    margin-left: auto!important;
+}
+
+.nav-item>a,
+.dropdown-menu>a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #fff!important;
+    transition: all 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.nav-item>a{
+    margin: 0 10px;
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    outline: none;
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.dropdown-menu>a:hover {
+    background-color: rgba(225,225,225,0.8);
+    transition: all 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    color: #2e7d32!important;
+}
+
+
+/*** Main Slider ***/
+
+#main-slider {
+    min-height: 80vh;
+    opacity: 0.8;
+}
+
+
+/*** Main Section ***/
+.content_main{
+    margin: 150px auto;
+    text-align: center;
+    width: 80%;
+}
+
+.content_main > h1{
+    color: #60ad5e;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.content_main > p{
+    font-size: 25px;
+}
+
+
+/*** Text Section ***/
+
+.content_text_home, .content_text_page{
+    text-align: justify;    
+}
+
+
+.content_text_home > h2{
+    font-size: 34px;
+    line-height: 36px;
+    color: #60ad5e;    
+}
+
+.content_text_home > p{
+    font-size: 21px;
+}
+
+.content_text_home img{
+    width: 100%;    
+}
